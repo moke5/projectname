@@ -1,0 +1,29 @@
+#include<stdio.h>
+
+int main()
+{
+    int i;
+    login();  // 登录
+
+    while(true)
+    {
+        Menu();  // 主菜单
+        scanf("%d", &i);
+        if(i == 0)
+            break;
+        switch(i)
+        {
+            case 1:
+                
+                break;
+            case 2:
+
+                break;
+
+            default:
+                error();  // 输入错误
+        }
+        
+    }
+    return 0;
+}
